@@ -1,0 +1,42 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * @file
+ * Functions to support theming in the Question-Theme theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ */
+function question_theme_preprocess_html(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
+function question_theme_preprocess_page(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function question_theme_preprocess_node(array &$variables): void {
+
+}
+
+
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function question_theme_attachments_alter(array &$attachments) {
+  // Use the dev library if we're developing locally.
+  if (in_array('question_theme_/react_app', $attachments['#attached']['library']) && file_exists(__DIR__ . '/js/dist_dev')) {
+    $index = array_search('question_theme_/react_app', $attachments['#attached']['library']);
+    $attachments['#attached']['library'][$index] = 'question_theme_/react_app_dev';
+  }
+}
