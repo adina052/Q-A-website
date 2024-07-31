@@ -1,4 +1,4 @@
-# Q&A webside with React Integration
+# Q&A website with React Integration
 
 ## Description
 This project is a Drupal-based A&Q system that utilizes React for a dynamic and user-friendly frontend. 
