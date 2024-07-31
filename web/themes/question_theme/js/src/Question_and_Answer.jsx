@@ -1,7 +1,7 @@
-// src/components/FAQ.jsx
+// src/components/Question_and_Answer.jsx
 import React, { useEffect, useState } from 'react';
 
-const FAQ = () => {
+const Question_and_Answer = () => {
   const [questions, setQuestions] = useState([]);
   const [topics, setTopics] = useState([]);
   const [selectedTopic, setSelectedTopic] = useState('all');
@@ -71,4 +71,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Question_and_Answer;
