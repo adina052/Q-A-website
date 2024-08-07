@@ -1,0 +1,14 @@
+#block-question-theme-powered,
+#block-question-theme-syndicate,
+#block-question-theme-site-branding {
+    display: none;
+}
+.views-row {
+    border: solid;
+}
+/* .field-content {
+color: brown;
+} */
+.views-field-title{
+color: blueviolet;
+}

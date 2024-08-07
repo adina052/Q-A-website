@@ -1,0 +1,268 @@
+{
+    "jsonapi": {
+      "version": "1.0",
+      "meta": {
+        "links": {
+          "self": {
+            "href": "http://jsonapi.org/format/1.0/"
+          }
+        }
+      }
+    },
+    "data": [
+      {
+        "type": "taxonomy_term--tags",
+        "id": "17fe5dc5-4a09-47f6-a6e4-15f13869c412",
+        "links": {
+          "self": {
+            "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412?resourceVersion=id%3A1"
+          }
+        },
+        "attributes": {
+          "drupal_internal__tid": 1,
+          "drupal_internal__revision_id": 1,
+          "langcode": "en",
+          "revision_created": "2024-07-28T12:56:31+00:00",
+          "status": true,
+          "name": "Learning Drupal",
+          "description": null,
+          "weight": 0,
+          "changed": "2024-07-29T22:46:08+00:00",
+          "default_langcode": true,
+          "revision_translation_affected": true,
+          "path": {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+          }
+        },
+        "relationships": {
+          "vid": {
+            "data": {
+              "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+              "id": "5e9e8bf5-8e22-47b1-83e3-eec502c1d6d3",
+              "meta": {
+                "drupal_internal__target_id": "tags"
+              }
+            },
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412/vid?resourceVersion=id%3A1"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412/relationships/vid?resourceVersion=id%3A1"
+              }
+            }
+          },
+          "revision_user": {
+            "data": null,
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412/revision_user?resourceVersion=id%3A1"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412/relationships/revision_user?resourceVersion=id%3A1"
+              }
+            }
+          },
+          "parent": {
+            "data": [
+              {
+                "type": "taxonomy_term--tags",
+                "id": "virtual",
+                "meta": {
+                  "links": {
+                    "help": {
+                      "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                      "meta": {
+                        "about": "Usage and meaning of the 'virtual' resource identifier."
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412/parent?resourceVersion=id%3A1"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/17fe5dc5-4a09-47f6-a6e4-15f13869c412/relationships/parent?resourceVersion=id%3A1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "taxonomy_term--tags",
+        "id": "9bea8f3b-6798-4809-9e27-e4cd49cc46d3",
+        "links": {
+          "self": {
+            "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3?resourceVersion=id%3A2"
+          }
+        },
+        "attributes": {
+          "drupal_internal__tid": 2,
+          "drupal_internal__revision_id": 2,
+          "langcode": "en",
+          "revision_created": "2024-07-29T22:47:10+00:00",
+          "status": true,
+          "name": "Installing Drupal",
+          "description": null,
+          "weight": 0,
+          "changed": "2024-07-29T22:47:10+00:00",
+          "default_langcode": true,
+          "revision_translation_affected": true,
+          "path": {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+          }
+        },
+        "relationships": {
+          "vid": {
+            "data": {
+              "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+              "id": "5e9e8bf5-8e22-47b1-83e3-eec502c1d6d3",
+              "meta": {
+                "drupal_internal__target_id": "tags"
+              }
+            },
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3/vid?resourceVersion=id%3A2"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3/relationships/vid?resourceVersion=id%3A2"
+              }
+            }
+          },
+          "revision_user": {
+            "data": null,
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3/revision_user?resourceVersion=id%3A2"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3/relationships/revision_user?resourceVersion=id%3A2"
+              }
+            }
+          },
+          "parent": {
+            "data": [
+              {
+                "type": "taxonomy_term--tags",
+                "id": "virtual",
+                "meta": {
+                  "links": {
+                    "help": {
+                      "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                      "meta": {
+                        "about": "Usage and meaning of the 'virtual' resource identifier."
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3/parent?resourceVersion=id%3A2"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/9bea8f3b-6798-4809-9e27-e4cd49cc46d3/relationships/parent?resourceVersion=id%3A2"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "taxonomy_term--tags",
+        "id": "1a5f7a30-4cd7-4406-a139-900d35e8be21",
+        "links": {
+          "self": {
+            "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21?resourceVersion=id%3A3"
+          }
+        },
+        "attributes": {
+          "drupal_internal__tid": 3,
+          "drupal_internal__revision_id": 3,
+          "langcode": "en",
+          "revision_created": "2024-07-29T22:48:12+00:00",
+          "status": true,
+          "name": "About Drupal",
+          "description": null,
+          "weight": 0,
+          "changed": "2024-07-29T22:48:12+00:00",
+          "default_langcode": true,
+          "revision_translation_affected": true,
+          "path": {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+          }
+        },
+        "relationships": {
+          "vid": {
+            "data": {
+              "type": "taxonomy_vocabulary--taxonomy_vocabulary",
+              "id": "5e9e8bf5-8e22-47b1-83e3-eec502c1d6d3",
+              "meta": {
+                "drupal_internal__target_id": "tags"
+              }
+            },
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21/vid?resourceVersion=id%3A3"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21/relationships/vid?resourceVersion=id%3A3"
+              }
+            }
+          },
+          "revision_user": {
+            "data": null,
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21/revision_user?resourceVersion=id%3A3"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21/relationships/revision_user?resourceVersion=id%3A3"
+              }
+            }
+          },
+          "parent": {
+            "data": [
+              {
+                "type": "taxonomy_term--tags",
+                "id": "virtual",
+                "meta": {
+                  "links": {
+                    "help": {
+                      "href": "https://www.drupal.org/docs/8/modules/json-api/core-concepts#virtual",
+                      "meta": {
+                        "about": "Usage and meaning of the 'virtual' resource identifier."
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "links": {
+              "related": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21/parent?resourceVersion=id%3A3"
+              },
+              "self": {
+                "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags/1a5f7a30-4cd7-4406-a139-900d35e8be21/relationships/parent?resourceVersion=id%3A3"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "links": {
+      "self": {
+        "href": "https://question-and-answer-page.ddev.site:8051/jsonapi/taxonomy_term/tags"
+      }
+    }
+  }

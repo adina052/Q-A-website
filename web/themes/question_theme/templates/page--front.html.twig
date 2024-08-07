@@ -44,21 +44,13 @@
 #}
 
 {{ attach_library('question__theme/global') }}
+{{ attach_library('question__theme/react_app') }}
 
 <div class="layout-container">
 
-  <header role="banner">
-    {{ page.header }}
-  </header>
-
-
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-          
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
+      <div id="react-app" class="block">React app will load here.</div>
     {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
         {{ page.sidebar_first }}
